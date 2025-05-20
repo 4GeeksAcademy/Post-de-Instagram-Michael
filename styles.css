@@ -1,0 +1,28 @@
+body {
+    background: #8f8a8a;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.feed-grid {
+    display: block;
+    background-position: center;
+    background-size: 50px;
+    margin: auto;
+    text-align: left;
+    justify-content:space-between;
+}
+.feed-grid img{
+     width: 450px;
+    height: 500px;
+}
+.feed-grid p{
+    text-align: right;
+}
+.feed-container {
+     width: 450px;
+    height: 500px;
+}
+.feed-grid p h2 {   
+    display: flex;
+}
