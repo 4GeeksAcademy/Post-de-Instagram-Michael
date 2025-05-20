@@ -6,6 +6,7 @@ body {
 }
 .feed-grid {
     display: block;
+    background: white;
     background-position: center;
     background-size: 50px;
     margin: auto;
@@ -23,6 +24,8 @@ body {
      width: 450px;
     height: 500px;
 }
-.feed-grid p h2 {   
+.header-row {
     display: flex;
+    align-items: center; 
+    justify-content: space-between; 
 }
