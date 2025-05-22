@@ -1,10 +1,10 @@
 body {
-    background: #8f8a8a;
+    background: #d8d5d5;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
 }
-.feed-grid {
+.post {
     display: block;
     background: white;
     background-position: center;
@@ -12,13 +12,16 @@ body {
     margin: auto;
     text-align: left;
     justify-content:space-between;
+    margin-top:10px;
 }
-.feed-grid img{
-     width: 450px;
+.post img{
+    width: 450px;
     height: 500px;
 }
-.feed-grid p{
-    text-align: right;
+.post p{
+    text-align: justify;
+    padding: 10px;
+    
 }
 .feed-container {
      width: 450px;
