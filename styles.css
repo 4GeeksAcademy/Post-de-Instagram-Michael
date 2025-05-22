@@ -1,14 +1,18 @@
 body {
     background: #d8d5d5;
+    background-size: 70px;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
+}
+.feed-title{
+    background: white;
 }
 .post {
     display: block;
     background: white;
     background-position: center;
-    background-size: 50px;
+    background-size: 70px;
     margin: auto;
     text-align: left;
     justify-content:space-between;
