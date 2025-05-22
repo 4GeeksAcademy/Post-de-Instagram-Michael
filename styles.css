@@ -1,5 +1,5 @@
 body {
-    background: #d8d5d5;
+    background: #e7e5e5;
     background-size: 70px;
     font-family: Arial, sans-serif;
     display: flex;
@@ -7,6 +7,7 @@ body {
 }
 .feed-title{
     background: white;
+    box-shadow: 5px 5px 10px red
 }
 .post {
     display: block;
@@ -17,10 +18,11 @@ body {
     text-align: left;
     justify-content:space-between;
     margin-top:10px;
+    box-shadow: 5px 5px 10px red
 }
 .post img{
     width: 450px;
-    height: 500px;
+    height: 500px
 }
 .post p{
     text-align: justify;
